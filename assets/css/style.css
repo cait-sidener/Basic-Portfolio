@@ -8,7 +8,7 @@ input[type=text], select, textarea {
     margin-top: 6px;
     margin-bottom: 16px;
     resize: vertical;
-    font: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 /* contact page submit button */
@@ -19,7 +19,7 @@ input[type=submit] {
     border: none;
     border-radius: 4px;
     cursor: pointer;
-    font: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 /* about me page image with text flow */
@@ -28,16 +28,59 @@ img {
     padding: 20px;
 }
 
-h1 {
-   font: font-family: 'Georgia', Times, Times New Roman, serif; 
+/*my name on each page*/
+#myName {
+    display: block;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    margin-left: 100px;
+    width: auto;
+    float: left;
+    height: 60px;
+    margin-top:10px;
+    text-align: center;
+    overflow: hidden;
 }
 
-/*links to about, portfolio, contact */
-#ovoMenu {
-    text-align: right;
-    margin: 5px;
-    padding: 20px;
-    padding-top: 5px;
+/* navigation bar */
+ul {
+    list-style-type: none;
+    margin:0;
+    padding: 0;
+}
+
+li {
+    display:inline;
+    float: right;
+}
+
+/*keeping links the same color, even when clicked on */
+a {
+    display: block;
+    padding: 8px;
     color: #777777;
-    font-size: 80%
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    text-decoration: none;
+    font-size: 80%;
+}
+
+/*about, portfolio, contact headers */
+h2 {
+    color:#4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    text-align: left;
+    width: 320px;
+    border: none;
+    margin:0;
+    margin-left:100px;
+    padding:5px;
+    margin-top: 80px;
+}
+
+/*the white box around content */
+.box {
+    border: 1px solid #777777;
+    width: 960px;
+    margin-left: 100px;
 }
