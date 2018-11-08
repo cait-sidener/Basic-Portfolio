@@ -1,0 +1,43 @@
+/* contact page elements */
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    font: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+/* contact page submit button */
+input[type=submit] {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+/* about me page image with text flow */
+img {
+    float: left;
+    padding: 20px;
+}
+
+h1 {
+   font: font-family: 'Georgia', Times, Times New Roman, serif; 
+}
+
+/*links to about, portfolio, contact */
+#ovoMenu {
+    text-align: right;
+    margin: 5px;
+    padding: 20px;
+    padding-top: 5px;
+    color: #777777;
+    font-size: 80%
+}
