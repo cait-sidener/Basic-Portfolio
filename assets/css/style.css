@@ -1,44 +1,3 @@
-/* center content on all pages */
-body {
-    display:block;
-    margin:0 auto;
-    width:960px;
-}
-
-/*white box around header */
-#header {
-    background-color: #ffffff;
-    border: 1px solid #dddddd;
-}
-
-/*my name on each page*/
-h1 {
-    background-color: #4aaaa5;
-    color: #ffffff;
-    display: block;
-    float: left;
-    font-family: 'Georgia', Times, Times New Roman, serif;
-    height: 60px;
-    margin-top:20px;
-    overflow: hidden;
-    text-align: center;
-    width: 270px;
-}
-
-/* navigation bar */
-ul {
-    float:right;
-    list-style-type: none;
-    margin:0;
-    padding: 0;
-
-}
-
-li {
-    display:inline;
-
-}
-
 /*keeping links the same color, even when clicked on for nav bar*/
 a {
     color: #777777;
@@ -47,6 +6,45 @@ a {
     font-size: 80%;
     padding: 8px;
     text-decoration: none;
+}
+
+a span {
+    background-color: #4aaaa5;
+    background-position: relative;
+    color: #ffffff;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    left: 0;
+    padding:10px;
+    position: absolute;
+    top: 200px;
+    width:100%;
+}
+
+/* center content on all pages */
+body {
+    margin: 0;
+    /* background-image: url('/assets/images/qbkls.png');
+    background-repeat: repeat; */
+    /* display:block;
+    margin:0 auto;
+    width:960px; */
+}
+
+/*the white box around content for all pages*/
+.box {
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    margin: 150px auto;
+    width:960px;
+}
+
+/*the entire contact form layout - outside the boxes */
+form {
+    color: #777777;
+    margin:0 auto;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    padding-left: 18px;
+    width: 960px;
 }
 
 /*about, portfolio, contact headers for all pages*/
@@ -64,28 +62,50 @@ h2 {
     width: 870px;
 }
 
-/*the white box around content for all pages*/
-.box {
+/*white box around header */
+.header {
     background-color: #ffffff;
     border: 1px solid #dddddd;
-    margin-top: 80px;
 }
 
-/* contact page elements */
-label {
-    display:block;
-    letter-spacing:2px;
-    margin-top: 30px;
-    padding-left:18px;
+/* navigation bar */
+.header-nav {
+    float: right;
+    list-style-type: none;
+    margin-right:175px;
+    padding: 0;
 }
 
-/*the entire contact form layout - outside the boxes */
-form {
-    color: #777777;
-    margin:0 auto;
+.header-nav li {
+    float: left;
+}
+
+/*my name on each page*/
+.header-title {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    display: block;
+    float: left;
     font-family: 'Georgia', Times, Times New Roman, serif;
-    padding-left: 18px;
-    width: 960px;
+    height: 60px;
+    margin-left:175px;
+    overflow: hidden;
+    padding: 1em;
+    text-align: center;
+    width: 270px;
+}
+
+/* Container holding image and text in Portfolio Page */
+.image {
+    margin-top:10px;
+    position: relative;
+}
+
+/* about me page image with text flow */
+img {
+    float: left;
+    margin: 0px 15px 15px 0px;
+    padding: 15px;
 }
 
 /*the name and email boxes */
@@ -99,17 +119,26 @@ input, texarea {
     margin-top:3px;
     padding:10px;
     width: 880px;
-
 }
- /* the message box */
-textarea {
-    background-color: #ffffff;
-    border:1px solid #dddddd;
-    font-family: 'Georgia', Times, Times New Roman, serif;
-    height:213px;
-    width: 900px;
 
+/* contact page elements */
+label {
+    display:block;
+    letter-spacing:2px;
+    margin-top: 30px;
+    padding-left:18px;
 }
+
+/* paragraph on about me section */
+p {
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    padding: 7px;
+    padding-left: 18px;
+    padding-right: 18px;
+}
+
+
 
 #submit {
     background-color: #4aaaa5;
@@ -129,37 +158,16 @@ textarea {
         opacity:.9;
     }
 
-/* about me page image with text flow */
-img {
-    float: left;
-    margin: 0px 15px 15px 0px;
-    padding: 15px;
+ /* the message box */
+textarea {
+    background-color: #ffffff;
+    border:1px solid #dddddd;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    height:213px;
+    width: 900px;
 }
 
-/* paragraph on about me section */
-p {
-    color: #777777;
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    padding: 7px;
-    padding-left: 18px;
-    padding-right: 18px;
+.wrapper-header {
+    background-color: white;
+    height:93px;
 }
-
-/* Container holding image and text in Portfolio Page */
-.image {
-    margin-top:10px;
-    position: relative;
-}
-
-a span {
-    background-color: #4aaaa5;
-    background-position: relative;
-    color: #ffffff;
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    left: 0;
-    padding:10px;
-    position: absolute;
-    top: 200px;
-    width:100%;
-}
-
