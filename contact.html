@@ -22,22 +22,25 @@
         </div>
     </div>
 
-        <div class="box">
+        <div class="box-set">
     
                 <h1 class="content">Contact</h1>
-        <form>
-
-            <label>Name</label>
-                <input type="name" name="name" placeholder="Your name..">
-          
-            <label>Email</label>
-                <input type="email" name="email" placeholder="Your email..">
-
-            <label>Message</label>
-                <textarea name="message"></textarea>
-            
-                <input id="submit" name="submit" type="submit">
-        </form>
+        
+            <form method="post" action="html_form_send.php">
+                <div>
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="user_name">
+                </div>
+                <div>
+                    <label for="mail">Email</label>
+                    <input type="email" id="mail" name="user_mail">
+                </div>
+                <div>
+                <label for="msg">Message</label>
+                    <textarea id="msg" name="user_message"></textarea>
+                </div>
+                    <a href="#" class="button">Submit</a>
+            </form>
 
         </div>
 </body>
