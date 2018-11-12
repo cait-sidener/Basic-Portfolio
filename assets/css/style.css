@@ -69,6 +69,13 @@ a {
     padding-bottom: 5px;
     width: 870px;
 }
+
+.footer,
+.push {
+    background-color: #666;
+    height:25px;
+}
+
 /*the entire contact form layout - outside the boxes */
 form {
     border:0px solid lightgrey;
@@ -89,6 +96,7 @@ form div + div {
     border: 1px solid #dddddd;
     background-color: white;
     height:93px;
+    position:relative;
     width:100%;
 }
 
@@ -98,7 +106,7 @@ form div + div {
     list-style-type: none;
     margin-right:225px;
     padding: 0;
-    
+    position: relative;  
 }
 
 /* navigation bar */
@@ -116,18 +124,25 @@ form div + div {
     font-family: 'Georgia', Times, Times New Roman, serif;
     height: 60px;
     line-height:2px;
-    margin-left:225px;
+    margin-left:238px;
     overflow: hidden;
     padding: 1em;
+    position: relative;
     text-align: center;
     width: 270px;
+}
+
+/* formatting for footer */
+html, body {
+    height:100%;
+    margin:0;
 }
 
 /* about me page image with text flow */
 img {
     float: left;
-    margin: 0px 15px 15px 0px;
-    padding: 15px;
+    margin: 0px 15px 15px 40px;
+    padding: 0px;
 }
 
 /* the name and email boxes on contact page */
@@ -154,9 +169,10 @@ label {
 p {
     color: #777777;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    padding: 7px;
-    padding-left: 18px;
-    padding-right: 18px;
+    line-height: 200%;
+    margin-left: 40px;
+    margin-bottom:15px;
+    width:900px;
 }
 
 .projects {
@@ -196,4 +212,10 @@ textarea {
     height:213px;
     vertical-align: top;
     width: 875px;
+}
+
+/* formatting for footer */
+.wrapper {
+    margin-bottom:-50px;
+    min-height: 100%;
 }
