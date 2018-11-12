@@ -20,21 +20,11 @@ a span {
     width:100%;
 }
 
-/* center content on all pages */
-body {
-    margin: 0;
-    /* background-image: url('/assets/images/qbkls.png');
-    background-repeat: repeat; */
-    /* display:block;
-    margin:0 auto;
-    width:960px; */
-}
-
 /*the white box around content for all pages*/
 .box {
     background-color: #ffffff;
     border: 1px solid #dddddd;
-    margin: 150px auto;
+    margin: 50px auto;
     width:960px;
 }
 
@@ -48,7 +38,7 @@ form {
 }
 
 /*about, portfolio, contact headers for all pages*/
-h2 {
+.content {
     border-collapse: separate;
     border-bottom: 2px solid #dddddd;
     border-spacing:15px 50px;
@@ -66,16 +56,21 @@ h2 {
 .header {
     background-color: #ffffff;
     border: 1px solid #dddddd;
+    background-color: white;
+    height:93px;
+    width:100%;
 }
 
 /* navigation bar */
 .header-nav {
     float: right;
     list-style-type: none;
-    margin-right:175px;
+    margin-right:225px;
     padding: 0;
+    
 }
 
+/* navigation bar */
 .header-nav li {
     float: left;
 }
@@ -88,7 +83,7 @@ h2 {
     float: left;
     font-family: 'Georgia', Times, Times New Roman, serif;
     height: 60px;
-    margin-left:175px;
+    margin-left:225px;
     overflow: hidden;
     padding: 1em;
     text-align: center;
@@ -138,8 +133,7 @@ p {
     padding-right: 18px;
 }
 
-
-
+/* contact page submit button */
 #submit {
     background-color: #4aaaa5;
     border:none;
@@ -154,6 +148,7 @@ p {
     width:127px;
 }
 
+/* contact page submit button */
     #submit:hover {
         opacity:.9;
     }
@@ -165,9 +160,4 @@ textarea {
     font-family: 'Georgia', Times, Times New Roman, serif;
     height:213px;
     width: 900px;
-}
-
-.wrapper-header {
-    background-color: white;
-    height:93px;
 }
