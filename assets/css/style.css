@@ -60,6 +60,23 @@ body {
     position:relative;
 }
 
+/* contact page submit button */
+.button {
+    background-color: #4aaaa5;
+    border:none;
+    color:white;
+    cursor: pointer;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    padding: 15px 32px;
+    text-align:center;
+    text-decoration:none;
+    display: inline-block;
+    font-size:17px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+
+}
+
 /*about, portfolio, contact headers for all pages*/
 .content {
     border-collapse: separate;
@@ -107,9 +124,10 @@ form div + div {
 
 /* navigation bar */
 .header-nav {
-    float: right;
+    display: flex;
+    justify-content:flex-end;
     list-style-type: none;
-    margin-right:225px;
+    margin-right:230px;
     padding: 0;
 }
 
@@ -192,23 +210,6 @@ p {
     text-align: center;
     top:155px;
     width:225px;
-}
-
-/* contact page submit button */
-.button {
-    background-color: #4aaaa5;
-    border:none;
-    color:white;
-    cursor: pointer;
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    padding: 15px 32px;
-    text-align:center;
-    text-decoration:none;
-    display: inline-block;
-    font-size:17px;
-    margin-top: 15px;
-    margin-bottom: 25px;
-
 }
 
  /* the message box in contact page */
