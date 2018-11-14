@@ -7,6 +7,11 @@ a {
     text-decoration: none;
 }
 
+body {
+    margin:0;
+    padding:0;
+}
+
 /* relative positioning in portfolio */
 .box {
     position: relative;
@@ -106,13 +111,13 @@ form div + div {
     list-style-type: none;
     margin-right:225px;
     padding: 0;
-    position: relative;  
 }
 
 /* navigation bar */
 .header-nav li {
     float: left;
     padding:10px;
+    position: relative;
 }
 
 /*my name on each page*/
@@ -201,7 +206,9 @@ p {
     text-decoration:none;
     display: inline-block;
     font-size:17px;
-    margin: 4px 2px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+
 }
 
  /* the message box in contact page */
