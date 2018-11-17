@@ -77,6 +77,11 @@ body {
 
 }
 
+button:hover {
+    color:black;
+
+}
+
 /*about, portfolio, contact headers for all pages*/
 .content {
     border-collapse: separate;
@@ -198,6 +203,7 @@ p {
     width:900px;
 }
 
+/* portfolio word boxes */
 .projects {
     background-color:#4aaaa5;
     background-position: center;
